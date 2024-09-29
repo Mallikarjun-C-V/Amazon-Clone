@@ -18,7 +18,9 @@
     height: 50px;
     width: 120px;
     position:static;
+    margin-top: 15px;
     margin-bottom: 13px;
+    cursor: pointer;
 }
 
 .border {
@@ -87,14 +89,25 @@
     justify-content: center; 
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
+    cursor: pointer;
 }
 
 .border1:hover {
     border: 3px solid orange;
 }
 
+.sign_in{
+    padding-left: 2px;
+    cursor: pointer;
+}
+
+.return {
+    cursor: pointer;
+}
+
 .line1 {
     color: #ffffff;
+    display: block;
     font-size: 0.75rem;
 }
 
@@ -113,6 +126,7 @@
 .cart_logo{
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .cart_logo p {
@@ -139,6 +153,16 @@
 
 .menu  {
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.menu p{
+    padding-left: 3px;
+}
+
+.menu {
+    cursor: pointer;
 }
 
 .menu2 p {
@@ -147,11 +171,13 @@
     display: inline;
     font-size: 0.95rem;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 .menu3 {
     font-size: 1.05rem;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .menu2 {
@@ -172,15 +198,18 @@
     background-color: #ffffff;
     color: black;    
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
     position: absolute;
     top: 350px;
-    left: 22px;
+    left: 1%;
+    right: 22px;
 }
 
 .hero_msg a {
     color: #007185;
+    text-decoration: none;
 }
 
 /* box */
@@ -199,6 +228,7 @@
     /* border: 2px solid black; */
     padding: 20px 0px 15px;
     margin-top: 15px;
+    cursor: pointer;
 
 }
 
@@ -206,6 +236,11 @@
     background-size: cover;
     height: 350px;
     margin-top: 5px;
+}
+
+.boxx2 h2{
+    font-size: 20px;
+    font-weight: 800;
 }
 
 .box_content {
@@ -229,6 +264,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.panel1:hover {
+    font-weight: 800;
+    background-color: #45576e;
 }
 
 .panel2 {
@@ -246,6 +287,7 @@ ul a {
     font-size: 0.85rem;
     color: #dddddd;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 ul p {
@@ -277,4 +319,405 @@ ul p {
     font-size: 0.85rem;
     text-align: center;
     padding-top: 25px;
+}
+
+
+
+/* response */
+
+
+
+
+@media (max-width:1200px) {
+    .box {
+        height: 400px;
+        width: 30%;
+        background-color: #ffffff;
+        /* border: 2px solid black; */
+        padding: 20px 0px 15px;
+        margin-top: 15px;
+    }
+
+    .boxx2 h2{
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .boxy2 {
+        background-size: cover;
+        height: 340px;
+        margin-top: 5px;
+    }
+}
+
+
+
+
+
+
+@media (max-width:1000px) {
+    /* .logo {
+        background-image: url(amazon_logo.png);
+        background-size: cover;
+        height: 20px;
+        width: 15%;
+        position:static;
+        margin-bottom: -13px;
+        padding-bottom: 50px;
+    } */
+
+    .location i{
+        font-size: 15px;
+    }
+
+    .deliver_to {
+        margin-left: 15px;
+        font-size: 0.70rem;
+        color: #cccccc;
+    }
+    
+    .india {
+        margin-left: 3px;
+        font-size: 0.8rem;
+        color: #ffffff;
+    }
+    
+    .line1 {
+        color: #ffffff;
+        font-size: 0.6rem;
+    }
+    
+    .line2 {
+        color: #ffffff;
+        font-size: 0.75rem;
+        font-weight: 600;
+        margin-top: 0%;
+    }
+
+    .cart_logo i {
+        font-size: 25px;
+        color: white;
+    }
+    
+    .cart1-logo {
+        font-weight: 600;
+    }
+ 
+    /*line2 */
+    
+    .menu  {
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .menu p{
+        padding-left: 3px;
+    }
+    
+    .menu2 p {
+        justify-content: space-evenly;
+        width: 75%;
+        display: inline;
+        font-size: 0.83rem;
+        margin-left: 13px;
+    }
+    
+    .menu3 {
+        font-size: 0.92rem;
+        font-weight: 600;
+        padding-right: 3px;
+    }
+    
+    .menu2 {
+        width: 80%;
+    }
+
+    /*hero*/
+
+    .hero {
+        background-image: url(hero_image.jpg);
+        background-size: cover;
+        height: 310px;
+    }
+    
+    .hero_msg {
+        height: 35px;
+        width: 97%;
+        background-color: #ffffff;
+        color: black;    
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 350px;
+        /* left: 14px; */
+        font-size: 15px;
+    }
+    
+    .hero_msg a {
+        color: #007185;
+    }
+
+    /*shoping section*/
+
+    .shop_section {
+        display: flex;
+        background-color: #e2e7e6;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .box1_img {
+        background-size: cover;
+        height: 350px;
+        margin-top: 5px;
+    }
+    
+    .box_content {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .box_content p {
+        margin-top: 5px;
+        color: #007185;
+    }
+
+}
+
+
+
+
+
+
+
+@media (max-width:950px) {
+    .box {
+        height: 400px;
+        width: 45%;
+        background-color: #ffffff;
+        /* border: 2px solid black; */
+        padding: 20px 0px 15px;
+        margin-top: 15px;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+@media (max-width:860px) {
+
+    .logo {
+        background-image: url(logo3.jpg);
+        background-size: cover;
+        height: 60px;
+        width: 120px;
+        position:static;
+        margin-top: 15px;
+        margin-bottom: 13px;
+        cursor: pointer;
+        padding-right: 10px;
+    } 
+
+    .location i{
+        font-size: 10px;
+    }
+
+    .sign_in {
+        gap: 0;
+    }
+
+    .deliver_to {
+        margin-left: 7px;
+        font-size: 0.6rem;
+        color: #cccccc;
+    }
+    
+    .india {
+        margin-left: 3px;
+        font-size: 0.7rem;
+        color: #ffffff;
+    }
+    
+    .line1 {
+        color: #ffffff;
+        font-size: 0.5rem;
+    }
+    
+    .line2 {
+        color: #ffffff;
+        font-size: 0.6rem;
+        font-weight: 300;
+        margin-top: 0%;
+    }
+
+    .cart {
+        display: flex;
+        gap: 0;
+    }
+
+    .cart_logo i {
+        font-size: 18px;
+        color: white;
+        padding-top: 9px;
+    }
+    
+    .cart_logo p{
+        padding-bottom: 3px;
+    }
+
+    .cart1-logo {
+        font-weight: 300;
+    }
+ 
+    /*line2 */
+    
+    .menu  {
+        font-weight: 300;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .menu p{
+        padding-left: 3px;
+    }
+    
+    .menu2 p {
+        justify-content: space-evenly;
+        width: 75%;
+        display: inline;
+        font-size: 0.60rem;
+        margin-left: 8px;
+    }
+    
+    .menu3 {
+        font-size: 0.70rem;
+        font-weight: 300;
+        padding-right: 3px;
+    }
+    
+    .menu2 {
+        width: 80%;
+    }
+
+    /*hero*/
+
+    .hero {
+        background-image: url(hero_image.jpg);
+        background-size: cover;
+        height: 310px;
+    }
+    
+    .hero_msg {
+        height: 35px;
+        width: 97%;
+        background-color: #ffffff;
+        color: black;    
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 350px;
+        /* left: 14px; */
+        font-size: 12px;
+    }
+    
+    .hero_msg a {
+        color: #007185;
+    }
+
+    /*shoping section*/
+
+    .shop_section {
+        display: flex;
+        background-color: #e2e7e6;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .box1_img {
+        background-size: cover;
+        height: 350px;
+        margin-top: 5px;
+    }
+    
+    .box_content {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .box_content p {
+        margin-top: 5px;
+        color: #007185;
+    }
+
+    .boxx2 h2{
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    .boxy2 {
+        background-size: cover;
+        height: 350px;
+        margin-top: 5px;
+    }
+
+    .navbar{
+        z-index: 0;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+    .hero_msg p{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+@media (max-width:550px) {
+
+    .logo {
+        background-image: url(logo3.jpg);
+        background-size: cover;
+        height: 40px;
+        width: 120px;
+        position:static;
+        margin-top: 15px;
+        margin-bottom: 13px;
+        cursor: pointer;
+        padding-right: 10px;
+    } 
+
+
+    
+    .box {
+        height: 400px;
+        width: 90%;
+        background-color: #ffffff;
+        /* border: 2px solid black; */
+        padding: 20px 0px 15px;
+        margin-top: 15px;
+        flex-wrap: wrap;
+    }
+
+    .hero {
+        background-image: url(hero_image1.jpg);
+        background-size: cover;
+        height: 310px;
+    }
 }
